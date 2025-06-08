@@ -1,0 +1,35 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[T1]{fontenc}
+\PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
+\usepackage[magyar]{babel}
+\usepackage{graphicx}
+\usepackage{url}
+
+\title{HAI számítás nyílt forrású adatok alapján}
+\author{Ozsváth Titusz}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\chapter{Bevezetés}
+\input{fejezetek/01_bevezetes.tex}
+
+\chapter{Magyar GDP adatok bemutatása}
+\input{fejezetek/02_magyar_gdp_adatok_bemutatasa.tex}
+
+\chapter{Felhasznált adatforrások}
+\input{fejezetek/03_felhasznalt_adatforrasok.tex}
+
+\chapter{Modellépítés}
+\input{fejezetek/04_modellepites.tex}
+
+\chapter{Eredmények bemutatása}
+\input{fejezetek/05_eredmenyek_bemutatasa.tex}
+
+\chapter{Következő lépések}
+\input{fejezetek/06_kovetkezo_lepesek.tex}
+\end{document}
