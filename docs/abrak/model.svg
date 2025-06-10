@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="210mm" height="148mm" viewBox="0 0 21000 14800" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xml:space="preserve">
- <defs class="ClipPathGroup">
-  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
-   <rect x="0" y="0" width="21000" height="14800"/>
-  </clipPath>
-  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
-   <rect x="21" y="14" width="20958" height="14771"/>
-  </clipPath>
- </defs>
+<svg version="1.2" width="165.13mm" height="50.83mm" viewBox="1951 4809 16513 5083" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xml:space="preserve">
  <defs>
   <font id="EmbeddedFont_1" horiz-adv-x="2048">
    <font-face font-family="Liberation Sans embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1850" descent="442"/>
@@ -28,9 +20,6 @@
    <glyph unicode="I" horiz-adv-x="193" d="M 189,0 L 189,1409 380,1409 380,0 Z "/>
    <glyph unicode=" " horiz-adv-x="568"/>
   </font>
- </defs>
- <defs class="TextShapeIndex">
-  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6 id7"/>
  </defs>
  <defs class="EmbeddedBulletChars">
   <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
@@ -64,57 +53,43 @@
    <path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/>
   </g>
  </defs>
- <g>
-  <g id="id2" class="Master_Slide">
-   <g id="bg-id2" class="Background"/>
-   <g id="bo-id2" class="BackgroundObjects"/>
+ <g class="Page">
+  <g class="com.sun.star.drawing.CustomShape">
+   <g id="id3">
+    <rect class="BoundingBox" stroke="none" fill="none" x="1951" y="4809" width="2543" height="5083"/>
+    <path fill="rgb(96,32,110)" stroke="none" d="M 3222,9890 L 1952,9890 1952,4810 4492,4810 4492,9890 3222,9890 Z "/>
+    <path fill="none" stroke="rgb(52,101,164)" d="M 3222,9890 L 1952,9890 1952,4810 4492,4810 4492,9890 3222,9890 Z "/>
+    <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2516" y="7215"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Input </tspan></tspan><tspan class="TextPosition" x="2269" y="7926"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">adatok</tspan></tspan></tspan></text>
+   </g>
   </g>
- </g>
- <g class="SlideGroup">
-  <g>
-   <g id="container-id1">
-    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
-     <g class="Page">
-      <g class="com.sun.star.drawing.CustomShape">
-       <g id="id3">
-        <rect class="BoundingBox" stroke="none" fill="none" x="1634" y="4809" width="2543" height="5083"/>
-        <path fill="rgb(96,32,110)" stroke="none" d="M 2905,9890 L 1635,9890 1635,4810 4175,4810 4175,9890 2905,9890 Z "/>
-        <path fill="none" stroke="rgb(52,101,164)" d="M 2905,9890 L 1635,9890 1635,4810 4175,4810 4175,9890 2905,9890 Z "/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="2199" y="7215"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Input </tspan></tspan><tspan class="TextPosition" x="1952" y="7926"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">adatok</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g class="com.sun.star.drawing.CustomShape">
-       <g id="id4">
-        <rect class="BoundingBox" stroke="none" fill="none" x="6079" y="4809" width="7623" height="5083"/>
-        <path fill="rgb(83,86,90)" stroke="none" d="M 9890,9890 L 6080,9890 6080,4810 13700,4810 13700,9890 9890,9890 Z "/>
-        <path fill="none" stroke="rgb(52,101,164)" d="M 9890,9890 L 6080,9890 6080,4810 13700,4810 13700,9890 9890,9890 Z "/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="8955" y="7571"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Modell</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g class="com.sun.star.drawing.CustomShape">
-       <g id="id5">
-        <rect class="BoundingBox" stroke="none" fill="none" x="15604" y="4809" width="2543" height="5083"/>
-        <path fill="rgb(206,175,135)" stroke="none" d="M 16875,9890 L 15605,9890 15605,4810 18145,4810 18145,9890 16875,9890 Z "/>
-        <path fill="none" stroke="rgb(52,101,164)" d="M 16875,9890 L 15605,9890 15605,4810 18145,4810 18145,9890 16875,9890 Z "/>
-        <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="15922" y="7215"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Output </tspan></tspan><tspan class="TextPosition" x="15922" y="7926"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">adatok</tspan></tspan></tspan></text>
-       </g>
-      </g>
-      <g class="com.sun.star.drawing.CustomShape">
-       <g id="id6">
-        <rect class="BoundingBox" stroke="none" fill="none" x="4173" y="7030" width="1909" height="639"/>
-        <path fill="rgb(2,40,80)" stroke="none" d="M 4174,7190 L 5603,7190 5603,7031 6080,7349 5603,7667 5603,7508 4174,7508 4174,7190 Z "/>
-        <path fill="none" stroke="rgb(52,101,164)" d="M 4174,7190 L 5603,7190 5603,7031 6080,7349 5603,7667 5603,7508 4174,7508 4174,7190 Z "/>
-       </g>
-      </g>
-      <g class="com.sun.star.drawing.CustomShape">
-       <g id="id7">
-        <rect class="BoundingBox" stroke="none" fill="none" x="13698" y="7030" width="1909" height="639"/>
-        <path fill="rgb(2,40,80)" stroke="none" d="M 13699,7190 L 15128,7190 15128,7031 15605,7349 15128,7667 15128,7508 13699,7508 13699,7190 Z "/>
-        <path fill="none" stroke="rgb(52,101,164)" d="M 13699,7190 L 15128,7190 15128,7031 15605,7349 15128,7667 15128,7508 13699,7508 13699,7190 Z "/>
-       </g>
-      </g>
-     </g>
-    </g>
+  <g class="com.sun.star.drawing.CustomShape">
+   <g id="id4">
+    <rect class="BoundingBox" stroke="none" fill="none" x="6396" y="4809" width="7623" height="5083"/>
+    <path fill="rgb(83,86,90)" stroke="none" d="M 10207,9890 L 6397,9890 6397,4810 14017,4810 14017,9890 10207,9890 Z "/>
+    <path fill="none" stroke="rgb(52,101,164)" d="M 10207,9890 L 6397,9890 6397,4810 14017,4810 14017,9890 10207,9890 Z "/>
+    <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="9272" y="7571"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(255,255,255)" stroke="none" style="white-space: pre">Modell</tspan></tspan></tspan></text>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.CustomShape">
+   <g id="id5">
+    <rect class="BoundingBox" stroke="none" fill="none" x="15921" y="4809" width="2543" height="5083"/>
+    <path fill="rgb(206,175,135)" stroke="none" d="M 17192,9890 L 15922,9890 15922,4810 18462,4810 18462,9890 17192,9890 Z "/>
+    <path fill="none" stroke="rgb(52,101,164)" d="M 17192,9890 L 15922,9890 15922,4810 18462,4810 18462,9890 17192,9890 Z "/>
+    <text class="SVGTextShape"><tspan class="TextParagraph"><tspan class="TextPosition" x="16239" y="7215"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Output </tspan></tspan><tspan class="TextPosition" x="16239" y="7926"><tspan font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400" fill="rgb(0,0,0)" stroke="none" style="white-space: pre">adatok</tspan></tspan></tspan></text>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.CustomShape">
+   <g id="id6">
+    <rect class="BoundingBox" stroke="none" fill="none" x="4490" y="7031" width="1909" height="639"/>
+    <path fill="rgb(2,40,80)" stroke="none" d="M 4491,7191 L 5920,7191 5920,7032 6397,7350 5920,7668 5920,7509 4491,7509 4491,7191 Z "/>
+    <path fill="none" stroke="rgb(52,101,164)" d="M 4491,7191 L 5920,7191 5920,7032 6397,7350 5920,7668 5920,7509 4491,7509 4491,7191 Z "/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.CustomShape">
+   <g id="id7">
+    <rect class="BoundingBox" stroke="none" fill="none" x="14015" y="7031" width="1909" height="639"/>
+    <path fill="rgb(2,40,80)" stroke="none" d="M 14016,7191 L 15445,7191 15445,7032 15922,7350 15445,7668 15445,7509 14016,7509 14016,7191 Z "/>
+    <path fill="none" stroke="rgb(52,101,164)" d="M 14016,7191 L 15445,7191 15445,7032 15922,7350 15445,7668 15445,7509 14016,7509 14016,7191 Z "/>
    </g>
   </g>
  </g>
