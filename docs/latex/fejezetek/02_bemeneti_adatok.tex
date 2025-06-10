@@ -1,0 +1,98 @@
+Ebben a fejezetben kerülnek azok az adatok bemutatásra, amelyek alapján az első lépésben a modell
+paraméterei meghatározásra kerülnek, illetve ha kész a modell ezen adatsorok új elemeivel
+lehetséges megelőlegezett, de egyben meg is alapozott jóslatot tenni arra, hogy épp mekkora az
+ország bruttó nemzeti összterméke.
+
+Mivel a gazdaság az egyik legbonyolultabb rendszer a világon, így végtelen sok paraméteres
+modelleket lehetne felállítani, amely a működését próbálja valamilyen formában megfogni. Ráadásul a
+különböző szereplők, mint az utóbbi évtizedekben látjuk, sokszor irracionálisan viselkednek,
+döntéseik sokszor kontextus függők, így egy teljes modellt felépíteni egy szakdolgozat keretében
+lehetetlen vállalkozás.
+
+A következő lehetőség, amely ebben a dolgozatban kihasználásra kerül, olyan fontos gazdasági
+jellemzők összegyűjtése, amelyek bizonyítottan jól jósolják be a gazdaság egyes szektorainak vagy
+egészének teljesítményét.
+
+A projektfeladat keretében a következő jellemzőket választottam:
+
+\begin{itemize}
+    \item Energia:
+          \begin{itemize}
+              \item Üzemanyag fogyasztás (benzin és diesel)
+              \item Üzemanyag árak (benzin és diesel)
+              \item Gázárak
+              \item Elektromos árak
+          \end{itemize}
+    \item Időjárás:
+          \begin{itemize}
+              \item Hőmérséklet
+              \item Csapadék
+              \item Levegő szennyezettség
+          \end{itemize}
+    \item Budapesti Értéktőzsde
+    \item Gazdasági adatok
+          \begin{itemize}
+              \item Infláció
+              \item Munkaerőpiac
+          \end{itemize}
+\end{itemize}
+
+\section{Üzemanyag fogyasztás}
+
+A mobilitás alapja még mindig a robbanómotoros közlekedési eszközök, így azok ára nagyon fontos
+indikátora a gazdasági aktivitásnak. Minél alacsonyabb az ára az üzemanyagnak, annál több ember
+teheti meg, hogy autózzon és annál több vállalkozásnak éri meg a termékeit szállítmányozni. És
+természetesen minél alacsonyabb az üzemanyag ára, annál többet fogyasztanak belőle.
+
+A magyarországi üzemanyag fogyasztást a Százhalombattán finomított üzemanyagok biztosítják messze a
+legnagyobb százalékban. Százhalombattán továbbra is Barátság vezetéken szállított orosz uráli
+típusú nyersolajat finomítanak még mindig, bár lassan folynak az átalakítási folyamatok, hogy más
+forrásból tudjon fogadni nyers termékeket. Bár mindig megfigyelhető volt némi árkülönbség a brent
+és az uráli típusú termékek között, az orosz-ukrán háború kiszélesedése után bevezetett szankciók
+miatt a kereslet lecsökkent az uráli nyersolajra és így az ára nyomottá vált.
+
+Ennek ellenére nincs különösebb kiskereskedelmi árkülönbség azon szomszédos országokkal összevetve,
+ahol nem orosz termékeket dolgoznak fel. Így a nyereség legnagyobb részben a MOL-nál csapódik le.
+Így elég, sőt indokolt a hazai árakkal dolgozni.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth, height=0.8\textheight, keepaspectratio]{../abrak/petrol_consumption.png}
+    \caption{A magyar GDP alakulása szektorok szerint}\label{fig:petrol_consumption}
+\end{figure}
+
+Az ábrán zölddel a dízel, kékkel a benzin fogyasztás látható. Sötétebbel a projektfeladat keretében
+vizsgált időszak (2015--2019) adatai lettek szedve. Megfigyelhetjük, a 2008-as válság miatti
+fogyasztás visszaesés. Az erőteljes gazdasági növekedés 2014 körül tért vissza, utána viszont
+meredeken emelkedett a fogyasztás. Olyan beruházások megvalósítása, mint a debreceni BMW gyár
+építését megelőző tereprendezése, hónapokra 10--15\%-kal is meg tudták a dízel fogyasztást növelni.
+
+A Covid lezárások visszavetették mindkét üzemanyag típus fogyasztását, de a benzin fogyasztásában
+arányaiban jobban visszaesett, mert a benzint személygépkocsik használják nagyobb arányban és a
+magánszemélyek mozgása sokáig korlátozva volt.
+
+Ezzel szemben a 2022-ben bevezetett 480 forintos benzinársapka újból magasba emelte a fogyasztást,
+sőt akkortájt még a benzinturizmus is megjelent a határaink mentén.
+
+\section{Üzemanyag árak}
+
+Az üzemanyag árak rugalmasabban alakulnak az üzemanyag fogyasztásánál, hiszen például megkezdett
+beruházásokat nem hagynak félben amiatt, ha véletlenül kicsit drágább lesz a dízel.
+
+Az előbb láthattuk tehát, hogy az üzemanyag kereslet rövidtávon rugalmatlan, addig a kínálatot
+legalább két tényező befolyásolja még:
+\begin{itemize}
+    \item A különböző nemzetközi kartellszervezetek döntései.
+    \item A piac várakozása, hiszen ha növekedés a konszenzusos várakozás, akkor megéri többet termelni,
+          hiszen úgy is meg fogják venni. Így viszont túlkínálat is kialakulhat.
+\end{itemize}
+
+Épp utóbbira lehet példa a 2015--18-as időszak. A 2022-es választásra való felkészülést kísérő
+kiköltekezés gyorsan megemelte az inflációt, majd az Ukrájnában kiújuló ellenségeskedés miatti aggodalom,
+majd 2022 végén életbe lépő szankciók miatti csökkenő kereslet egekbe emelte az üzemanyag árakat. Ennek tartott ellent néhány hónapig a benzinársapka.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth, height=0.8\textheight, keepaspectratio]{../abrak/petrol_prices.png}
+    \caption{A magyar GDP alakulása szektorok szerint}\label{fig:petrol_prices}
+\end{figure}
