@@ -1,0 +1,29 @@
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+build/
+.latexindent.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# Folders
+.vscode/**
+
+# Files
+docs/latex/merged_projektfeladat.tex
