@@ -89,3 +89,100 @@ megemlítek:
     \item hiányzó adatok az adatsorban
     \item nehezen kezelhetők a gazdasági és politikai válságok hatásai
 \end{itemize}
+
+\section{Idősoros vizsgálati módszerek}
+
+\subsection{OLS --- Ordinary Least Square modellek}
+
+\subsection{ETS --- Error, Trend and Seasonality modellek}
+Exponenciális simítás
+
+\section{ARMA modellcsalád}
+
+Mielőtt a modellcsalád bemutatásába belekezdek érdemes megismerkedni a \emph{stacionaritás}
+fogalmával. Azt mondjuk, hogy egy idősoros adat \emph{stacionárius}, ha
+
+\begin{itemize}
+    \item az átlaga konstans
+    \item a szórása konstans
+    \item a sokaságon belüli autokorrelációk is konstansak
+\end{itemize}
+
+\subsection{Augmented Dickey–Fuller teszt (ADF)}
+
+\subsection{AR --- Autoregresszív modellek}
+
+A legegyszerűbb autoregresszív modell az $AR(1)$ modell:
+
+\begin{equation}
+    y_t = a_1y_{t-1} + \epsilon_t
+\end{equation}
+
+A zárójelben szereplő 1-es azt fejezi ki, hogy az $y$ mostani értéke az $y$ előző érték $a_1$
+szorosa, amelyre egy hibataga $\epsilon_t$ tevődik, amely fehérzajnak feleltethető meg.
+
+Eggyel továbblépve a másodrendű autóregresszív modell az $AR(2)$:
+
+\begin{equation}
+    y_t = a_1y_{t-1} + a_2y_{t-2} + \epsilon_t
+\end{equation}
+
+Általánosítva a modellt, kapjuk a p-rendű $AR(p)$ modellt:
+
+\begin{equation}
+    y_t = a_1y_{t-1} + a_2y_{t-2} + \ldots + a_p y_{t-p} + \epsilon_t % chktex 11
+\end{equation}
+
+\subsection{MA --- Moving Average modellek}
+
+Mozgóátlag modellek hasonlítanak az autoregresszív modellekhez, viszont itt a modell $m_i$
+paraméterei nem az előző értékre, hanem az előző hibatagra vonatkoznak. Az így kapott modell az
+$MA(1)$ modell:
+
+\begin{equation}
+    y_t = m_1\epsilon_{t-1} + \epsilon_t
+\end{equation}
+
+Általánosítva kapjuk $MA(q)$ modellt, ahol $q$ a modell rendje:
+
+\begin{equation}
+    y_t = m_1\epsilon_{t-1} + m_2\epsilon_{t-2} + \ldots + m_q\epsilon_{t-q} + \epsilon_t % chktex 11
+\end{equation}
+
+\subsection{ARMA --- AR+MA modellek}
+
+Az ARMA modell az autóregresszív és mozgóátlagon alapuló modellek kombinációja. Az $ARMA(1,1)$
+modellt tehát a következő képlet ír le:
+
+\begin{equation}
+    y_t = a_1y_{t-1} + m_1\epsilon_{t-1} + \epsilon_t
+\end{equation}
+
+A fenti képletet általánosítva kapjuk az $ARMA(p,q)$ modellt, ahol $p$ az autoregresszív rész
+rendje és $q$ a mozgóátlagos rész rendje:
+
+\begin{equation}
+    y_t = a_1y_{t-1} + a_2y_{t-2} + \ldots + a_p y_{t-p} + m_1\epsilon_{t-1} + m_2\epsilon_{t-2} + \ldots + m_q\epsilon_{t-q} + \epsilon_t % chktex 11
+\end{equation}
+
+\subsection{ARMAX --- ARMA modellek exogén változókkal kiegészítve}
+
+Itt már csak az elsőrendű alakot, az $ARMAX(1,1)$ modellt hozom, ahol $x$ az exogén változó és
+$z_1$ annak a koefficiense:
+
+\begin{equation}
+    y_t = z_1x_t + a_1y_{t-1} + m_1\epsilon_{t-1} + \epsilon_t
+\end{equation}
+
+\subsection{ARIMA --- Az integráló ARMA modellek}
+\subsection{SARIMA --- Seasonal ARIMA modellek}
+
+Sok esetben
+
+\begin{equation}
+    y_t = z_1x_t + a_1y_{t-1} + m_1\epsilon_{t-1} + \epsilon_t
+\end{equation}
+
+\subsection{ML --- Machine Learning modellek}
+
+\section{Projektfeladatban alkalmazott modellek}
